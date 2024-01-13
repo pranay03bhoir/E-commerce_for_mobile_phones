@@ -12,7 +12,7 @@ var compare = function () {
     rpass.setCustomValidity("");
   } else {
     img.style.display = "block";
-    img.setAttribute("src", "assets/image/xmark.svg");
+    img.setAttribute("src", "assets/images/xmark.svg");
     rpass.style.borderColor = "red";
     rpass.setCustomValidity("Password does not match");
   }
@@ -121,10 +121,10 @@ var hideshow1 = function () {
   img1 = document.getElementById("image4");
   if (val1 == "password") {
     rpass.setAttribute("type", "text");
-    img1.setAttribute("src", "../images/eyeclosed.svg");
+    img1.setAttribute("src", "assets/images/eyeclosed.svg");
   } else if (val1 == "text") {
     rpass.setAttribute("type", "password");
-    img1.setAttribute("src", "../images/eyeopen.svg");
+    img1.setAttribute("src", "assets/images/eyeopen.svg");
   }
 };
 
