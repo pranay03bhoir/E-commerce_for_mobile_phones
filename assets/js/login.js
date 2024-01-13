@@ -5,11 +5,11 @@ var showhide = function(){
     img = document.getElementById("imgbtn");
     if(val=="password"){
         pass.setAttribute("type","text");
-        img.setAttribute("src","../assets/images/eyeclosed.svg");
+        img.setAttribute("src","../images/eyeclosed.svg");
     }
     else if(val=="text"){
         pass.setAttribute("type","password");
-        img.setAttribute("src","../assets/images/eyeopen.svg");
+        img.setAttribute("src","../images/eyeopen.svg");
     }
 }
 var emailvalidation = function () {
