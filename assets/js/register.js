@@ -7,12 +7,12 @@ var compare = function () {
 
   if (rpass.value === pass.value) {
     img.style.display = "block";
-    img.setAttribute("src", "..images/check.svg");
+    img.setAttribute("src", "../images/check.svg");
     rpass.style.borderColor = "green";
     rpass.setCustomValidity("");
   } else {
     img.style.display = "block";
-    img.setAttribute("src", "..image/xmark.svg");
+    img.setAttribute("src", "../image/xmark.svg");
     rpass.style.borderColor = "red";
     rpass.setCustomValidity("Password does not match");
   }
@@ -27,12 +27,12 @@ var mobilevalidation = function () {
   img.getAttribute("src");
   if (str != null) {
     img.style.display = "block";
-    img.setAttribute("src", "..images/check.svg");
+    img.setAttribute("src", "../images/check.svg");
     mobile.style.borderColor = "green";
     mobile.setCustomValidity("");
   } else {
     img.style.display = "block";
-    img.setAttribute("src", "..images/xmark.svg");
+    img.setAttribute("src", "../images/xmark.svg");
     mobile.style.borderColor = "red";
     mobile.setCustomValidity("Invalid mobile number :- \n *The number must contain 10 digits. \n *The number must contain valid country code(optional). \n *The number must not contain any spaces in between. \n *The number should not be text.");
   }
@@ -107,11 +107,11 @@ var hideshow = function () {
   if (val == "password" || val1 == "password") {
     pass.setAttribute("type", "text");
 
-    img.setAttribute("src", "..images/eyeclosed.svg");
+    img.setAttribute("src", "../images/eyeclosed.svg");
   } else if (val == "text" || val1 == "text") {
     pass.setAttribute("type", "password");
 
-    img.setAttribute("src", "..images/eyeopen.svg");
+    img.setAttribute("src", "../images/eyeopen.svg");
   }
 };
 var hideshow1 = function () {
@@ -121,10 +121,10 @@ var hideshow1 = function () {
   img1 = document.getElementById("image4");
   if (val1 == "password") {
     rpass.setAttribute("type", "text");
-    img1.setAttribute("src", "..images/eyeclosed.svg");
+    img1.setAttribute("src", "../images/eyeclosed.svg");
   } else if (val1 == "text") {
     rpass.setAttribute("type", "password");
-    img1.setAttribute("src", "..images/eyeopen.svg");
+    img1.setAttribute("src", "../images/eyeopen.svg");
   }
 };
 
