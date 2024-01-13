@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(254, 250, 224);
+}
+
+.lgbox{
+    box-sizing: border-box;
+    display: grid;
+    margin-top: 5%;
+    /*border: 2px solid black;*/
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 4px gray;
+    background-color: white;
+    
+    
+}
+.heading{
+    margin-top: -90px;
+    margin-left: 30px;
+}
+#mail{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 2px solid gray;
+   /* background-image: url("../images/user.svg");
+    background-repeat: no-repeat;*/
+    outline-style: none;
+    
+}
+#pass{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 2px solid gray;
+   /* background-image: url("../images/lock.svg");
+    background-repeat: no-repeat;*/
+    outline-style: none;
+
+    
+}
+.userimg{
+    position: absolute;
+    top: 150px;
+    left: 590px;
+}
+.passimg{
+    position: absolute;
+    top:225px;
+    left:590px;
+}
+img{
+    position: relative;
+    left:280px;
+    top:-60px;
+}
+#mail:focus{
+    border-bottom: 3px solid black;
+}
+#pass:focus{
+    border-bottom: 3px solid black;
+}
+label{
+    position: relative;
+    top:18px;
+    left:20px;
+    cursor: text;
+    display: flex;
+    align-items: center;
+}
+
+.a{
+    text-align: end;
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    margin-top: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 1px;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out,border-width 0.2s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border-width: 2px;
+
+}
+.para{
+    margin-top: 70px;
+    text-align: center;
+}
+.caps{
+    margin-left: 60px;
+    color:red;
+}
+.btn2{
+    height: 40px;
+    width:300px;
+    border-radius: 20px;
+    border-width: 2px;
+    font-size: larger;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out,border-width 0.2s;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border-width: 2px;
+}
+@media only screen and (min-width:576px){
+	.col-1{
+	  width:8.33;/*1 x 8.33*/
+	}
+	  .col-2{
+		  width:16.66;/*2 x 8.33*/
+	  }
+	  .col-3{
+		  width:25%;/*3 x 8.33*/
+	  }
+	  .col-4{
+		  width:33.32%;/*4 x 8.33*/
+	  }
+	  .col-5{
+		  width:41.65%;/*5 x 8.33*/
+	  }
+	  .col-6{
+		  width:50%;/*6 x 8.33*/
+	  }
+	  .col-7{
+		  width:58.31%;/*7 x 8.33*/
+	  }
+	  .col-8{
+		  width:66.64%;/*8 x 8.33*/
+	  }
+	  .col-9{
+		  width:75%;/*9 x 8.33*/
+	  }
+	  .col-10{
+		  width:83.3%;/*10 x 8.33*/
+	  }
+	  .col-11{
+		  width:91.63%;/*11 x 8.33*/
+	  }
+	  .col-12{
+		  width:100%;/*12 x 8.33*/
+	  }
+		
+  }

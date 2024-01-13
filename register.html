@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-shop | Sign-up</title>
+    <link rel="stylesheet" href="assets/css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <form>
+        <div class="main">
+            <h1>Signup for E-shop</h1>
+            <div class="input">
+                <input type="text" class="name" name="username" placeholder="Username" id="unm" onkeyup="usernamevalidation()">
+                <input type="text" class="mail" name="usermail" placeholder="Email" onkeyup=" emailvalidation()">
+                <img src="assets/images/eyeopen.svg" id="image3" onclick="hideshow()">
+                <input type="password" name="userpassword" class="pass" placeholder="Password" onkeyup="passwordvalidation()">
+                <img src="assets/images/eyeopen.svg" id="image4" onclick="hideshow1()">
+                <input type="password" name="userrepeatpass" class="pass1" placeholder="Repeat password"
+                    onkeyup="compare()">
+            </div>
+            <div class="sub">
+                <button type="submit" value="submit">Register</button>
+                <a href="login.html" target="_blank">
+                    <p>Already have an account?</p>
+                </a>
+            </div>
+            <div class="img">
+                <img src="assets/images/check.svg" id="image">
+            </div>
+            <div class="usercred">
+                <img src="assets/images/check.svg" id="image2">
+                <input type="text" name="usermob" id="mob" placeholder="Mobile no." onkeyup="mobilevalidation()">
+            </div>
+            <div class="useradd">
+                <input type="text" name="useradd" id="add1" placeholder="House name">
+                <input type="text" name="userhno." id="add2" placeholder="House number">
+                <input type="text" name="userlandmark" id="add3" placeholder="Landmark(optional)">
+            </div>
+        </div>
+    </form>
+    <script src="assets/js/register.js"></script>
+</body>
+
+</html>

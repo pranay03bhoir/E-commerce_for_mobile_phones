@@ -1,0 +1,259 @@
+h1{
+    display: inline-block;
+    position: absolute;
+    top:3px;
+    left:7%;
+    font-size: xx-large;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+   background-color: rgb(245, 235, 224);
+   font-family: 'Roboto Condensed', sans-serif;
+
+}
+.nav{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(40, 54, 24);
+    color: white;
+    height: 80px;
+    border-radius: 10px;
+}
+.nav1{
+    display: flex;
+    position: absolute;
+    top:35px;
+    left: 25%;
+    word-spacing: 10%;
+    margin: 0;
+}
+.items{
+    position: relative;
+    padding-left: 110px;
+    font-size: x-large;
+}
+.items:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav2{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top:23px;
+    right: 20px;
+   /* margin-top: 35px;
+    margin-right: 20px;*/
+}
+.nav2 li{
+    padding-left: 20px;
+    font-size: large;
+}
+.nav2 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.bg_img{
+  background-size: cover;
+  margin-top: 10px;
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+}
+.main{
+    display: inline-block;
+   /* background-color: rgb(245, 235, 224);*/
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    width:300px;
+}
+p{
+    display: flex;
+    padding-left: 10px;
+}
+.sam_img1{
+    background-size: contain;
+    margin-top: 100px;
+    margin-left:0px;
+    height: 300px;
+    border-radius: 10px;
+}
+.sam_btn{
+    position: relative;
+    left: 60%;
+    top:-50px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-width: 1px;
+   /* border-color:rgb(33, 158, 188);*/
+    color: white;
+    background-color: rgb(251, 133, 0);
+    transition: background-color 0.4s ease-in-out,color 0.4s ease-in-out, border-width 0.4s ease-in-out, border-color 0.4s ease-in-out;
+    
+}
+.sam_btn:hover{
+     background-color: rgb(255, 90, 0);
+     color: white;
+     border-width: 1px;
+     
+     
+}
+
+.main1{
+    display: inline-block;
+    /*background-color: rgb(245, 235, 224);*/
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    width:300px;
+    position: relative;
+    left: 40px;
+}
+.s23{
+    background-size: contain;
+    height: 300px;
+    border-radius: 10px;
+}
+.main2{
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    width:300px;
+    position: relative;
+    left: 100px;
+}
+.fold5{
+    background-size: contain;
+    height: 300px;
+    border-radius: 10px;
+}
+.main3{
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    width:300px;
+    position: relative;
+    left: 150px;
+}
+.flip5{
+    background-size: contain;
+    height: 300px;
+    border-radius: 10px;
+}
+.main3 p{
+    padding-left: 30px;
+}
+.main3 .sam_btn{
+    left: 80%;
+}
+.l1{
+    position: absolute;
+    left:42%;
+    font-size: x-large;
+}
+.l2{
+    position: absolute;
+    left:45%;
+    font-size: x-large;
+}
+@media only screen and (min-width:576px){
+	.col-1{
+	  width:8.33;/*1 x 8.33*/
+	}
+	  .col-2{
+		  width:16.66;/*2 x 8.33*/
+	  }
+	  .col-3{
+		  width:25%;/*3 x 8.33*/
+	  }
+	  .col-4{
+		  width:33.32%;/*4 x 8.33*/
+	  }
+	  .col-5{
+		  width:41.65%;/*5 x 8.33*/
+	  }
+	  .col-6{
+		  width:50%;/*6 x 8.33*/
+	  }
+	  .col-7{
+		  width:58.31%;/*7 x 8.33*/
+	  }
+	  .col-8{
+		  width:66.64%;/*8 x 8.33*/
+	  }
+	  .col-9{
+		  width:75%;/*9 x 8.33*/
+	  }
+	  .col-10{
+		  width:83.3%;/*10 x 8.33*/
+	  }
+	  .col-11{
+		  width:91.63%;/*11 x 8.33*/
+	  }
+	  .col-12{
+		  width:100%;/*12 x 8.33*/
+	  }
+		
+  }
+.main4{
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    width:300px;
+    position: relative;
+    left: 0px;
+}
+.main5{
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    width:300px;
+    position: relative;
+    left: 60px;
+}
+.main6{
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    width:300px;
+    position: relative;
+    left: 150px;
+}
+.main7{
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    width:300px;
+    position: relative;
+    left: 240px;
+}
+.ip_btn{
+    position: relative;
+    left: 140px;
+    top:-50px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-width: 1px;
+   /* border-color:rgb(33, 158, 188);*/
+    color: white;
+    background-color: rgb(251, 133, 0);
+    transition: background-color 0.4s ease-in-out,color 0.4s ease-in-out, border-width 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
+.ip_btn:hover{
+    background-color: rgb(255, 90, 0);
+    color: white;
+    border-width: 1px;
+}
+.iphone15{
+    margin-top: 110px;
+    background-size: contain;
+    height: 300px;
+    border-radius: 10px;
+}

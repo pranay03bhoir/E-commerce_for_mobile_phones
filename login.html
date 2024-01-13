@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-shop | Log-in</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <form>
+        <div class="lgbox">
+            <h1 class="heading">Login to E-shop</h1>
+            <img src="assets/images/user.svg" class="userimg">
+            <input type="text" id="mail" name="umail" placeholder="Email" onkeyup="emailvalidation()">
+            <img src="assets/images/lock.svg" class="passimg">
+            <input type="password" id="pass" name="upass" placeholder="Password">
+            <img src="assets/images/eyeopen.svg" id="imgbtn" alt="" onclick="showhide()">
+            <a href="#" class="a">Forgot Password?</a>
+            <input type="submit" value="Login" class="btn">
+            <p class="para">Don't have a account?</p>
+            <a href="register.html" target="_blank"><input type="button" value="Register" class="btn2"></a>
+        </div>
+    </form>
+    <script src="assets/js/login.js"></script>
+</body>
+</html>
